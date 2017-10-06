@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+  font-weight: 1000;
+  font-size: 40px;
+  font-family: Calibri;
+}
+.header {
+  color:green;
+  font-weight: 1000;
+  font-size: 60px;
+}
+.subhead {
+  color: green;
+  font-weight: 400;
+  font-size: 30px;
+  font-style: italic;
+}
+.body {
+  color: purple;
+  font-weight: 300;
+  font-size: 20px;
+}
+.jumbotron {
+  background-image: url(corvallis.jpg);
+}
+img {
+  width:500px;
+}
+.small {
+  width: 300px;
+}
