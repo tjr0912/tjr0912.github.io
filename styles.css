@@ -3,18 +3,17 @@ body {
   font-variant: small-caps;
   font-weight: bold;
   }
-.navbar-light .navbar-brand {
-    color: red;
-}
+
 .jumbotron {
   background-image: url(wallpaper2.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  min-height: 515px
 }
 
 .jumbotron img {
-  height: 250px
+  height: auto;
 }
 
 .carousel-inner {
@@ -30,11 +29,12 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 75px;
+  font-size: 50px;
+  font-style: italic;
 }
 
 h3 {
-  color: black;
+  color: navy;
   font-weight: 500;
   font-variant: small-caps;
   font-size: 50px;
