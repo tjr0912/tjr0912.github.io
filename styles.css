@@ -2,23 +2,53 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-variant: small-caps;
   font-weight: bold;
+  background-color: white;
   }
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-weight: bold;
+  font-size: 75px;
+  padding-bottom: 100px;
+}
 
 .jumbotron {
   background-image: url(wallpaper2.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  min-height: 515px
+  min-height: 450px
 }
 
 .jumbotron img {
   height: auto;
 }
 
+.jumbotron2 {
+  background-image: url(bottom6.jpg);
+  background-repeat:no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 550px;
+  width: 100%;
+}
+
+.jumbotron2 img {
+  height: auto;
+  width:100%
+}
+
 .carousel-inner {
   width: 100%;
-  height: 700px !important;
+}
+
+.nav-bottom {
+  text-align: center;
 }
 
 h1 {
@@ -38,7 +68,14 @@ h3 {
   font-weight: 500;
   font-variant: small-caps;
   font-size: 50px;
-  font-family: Calibri;
+}
+
+h4 {
+  color: white;
+  font-weight: 500;
+  font-variant: small-caps;
+  font-size: 18px;
+  font-style: italic;
 }
 
 .container {
